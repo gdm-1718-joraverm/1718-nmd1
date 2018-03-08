@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2 em;
+    padding: 0;
+    margin: 0;
+    background-color: #151515
+}
+
+.box {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: #EEEEEE;
+    padding: 1em;
+    height: 50px;
+    margin: 0;
+}
+
+header a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ADADAD
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 25px;
+}
+
+nav {
+    float: right;
+}
+
+#naam{
+    float: left;
+}
+
+h1 {
+    color: #EEEEEE;
+}
+
+p {
+    color: #EEEEEE;
+}
+
+#groteFoto {
+    background-image: url("./img/background")
+}
+
+#groteFoto {
+    padding: 5em;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+#info{
+    color: #EEEEEE;
+    margin: auto;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.img {
+    margin: 20px;
+    float: left;
+    height: 440px;
+}
+
+.img img{
+    height: 100%;
+    width: auto;
+}
+
+.gallerij {
+    display: block;
+}
